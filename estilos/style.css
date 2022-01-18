@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url('../fontes/game.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: 'h1';
+    src: url('../fontes/GonziExpandedPERSONALUSE-Regular.otf') format('opentype');
+}
+
+:root {
+
+    --cor1 :#050505;
+    --cor2 :#3333338a;
+    --cor3 :#FFFFFF;
+
+    --font-padrao: arial, verdana, helvetica, sans-serif ;
+    --font-destaque:'titulo', cursive;
+    --font-principal:'h1', cursiv;
+
+}
+
+* {
+    margin: 0px ;
+    padding: 0px;
+}
+
+body {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.849), transparent);
+    font-family: var(--font-padrao);
+}
+
+header {
+
+    background-color: black;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+header > h1 {
+    color: white ;
+    font-family: var(--font-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px black;
+    
+
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    min-height: 50px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    box-shadow: 0px 7px 9px black;
+    
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    transition-duration: 0.5;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px  10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+
+
+}
+
+main h1 {
+    font-family: var(--font-destaque);
+    padding-bottom: 5px;
+    font-size: 3em;
+    text-align: center;
+}
+
+main h2 {
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.521), transparent);
+    font-family:var(--font-destaque);
+    font-weight: 1.2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+main p {
+    line-height: 2em;
+}
+
+p {
+
+    text-indent: 20px;
+}
+
+ ul {
+
+    list-style-position: inside;
+    list-style-type: square;
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+ img { 
+    
+    margin: auto;
+    display: block;
+    padding: 12px;
+   
+}
+
+ main h3 {
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.541),transparent);
+}
+
+main h4 {
+
+    text-align: center;
+}
+
+.chacara {
+
+    background-color: black;
+    padding: 5px;
+    text-align: justify;
+    display:inline-block
+    
+}
+.chacara2 
+{
+    padding-bottom: 12px;
+}
+
