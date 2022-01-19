@@ -162,4 +162,32 @@ main h4 {
 {
     padding-bottom: 12px;
 }
+aside h3 {
+    text-align: center;
+    
+}
 
+.topico2 {
+
+    background-color: rgb(12, 12, 12);
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+aside ol {
+  list-style-position: inside;
+  padding: 10px;
+  font-weight: bold;
+
+  
+}
+aside > ol >li {
+    padding: 3px;
+}
+
+footer {
+
+    text-align: center;
+    background-color: blanchedalmond;
+}
