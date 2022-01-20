@@ -33,7 +33,7 @@ body {
 }
 
 header {
-
+    width:100%;
     background-color: black;
     min-height: 150px;
     text-align: center;
@@ -112,6 +112,7 @@ main h2 {
 
 main p {
     line-height: 2em;
+    padding: 0px ;
 }
 
 p {
@@ -148,6 +149,10 @@ main h4 {
 
     text-align: center;
     padding: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
 }
 
 .chacara {
@@ -165,6 +170,10 @@ main h4 {
 aside h3 {
     text-align: center;
     
+}
+
+.destaque {
+    padding-bottom: 50px;
 }
 
 .topico2 {
@@ -186,8 +195,14 @@ aside > ol >li {
     padding: 3px;
 }
 
+aside > picture > img {
+
+   
+}
 footer {
 
     text-align: center;
     background-color: blanchedalmond;
+    font-size: 1.2;
+    padding: 5px;
 }
