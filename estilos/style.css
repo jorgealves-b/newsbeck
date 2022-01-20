@@ -79,6 +79,9 @@ nav > a:hover {
     color: black;
 }
 
+a.externo::after {
+    content: '\1F517';
+}
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -113,6 +116,12 @@ main h2 {
 main p {
     line-height: 2em;
     padding: 0px ;
+}
+
+main strong {
+
+    font-weight:bold;
+    padding: 2px 5px;
 }
 
 p {
@@ -155,6 +164,16 @@ main h4 {
     color: white;
 }
 
+main  a {
+  
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.384);
+    padding: 2px 6px;
+
+}
+
 .chacara {
 
     background-color: black;
@@ -195,10 +214,12 @@ aside > ol >li {
     padding: 3px;
 }
 
-aside > picture > img {
+aside a {
+   background-color: rgba(117, 115, 115, 0.644);
+}
 
    
-}
+
 footer {
 
     text-align: center;
